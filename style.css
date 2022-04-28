@@ -28,6 +28,7 @@
     margin-block-end: 7.7em;
     margin-block-start: 9.1em;
     margin-inline: 3.1em;
+
   }
   hgroup {
     align-items: center;
@@ -92,6 +93,10 @@
   }
   section:nth-of-type(4n + 4) {
     border-top-color: var(--primary_blue);
+  }
+  .validator{
+    position: absolute;
+    inset-inline-end: 28.3em;
   }
 }
 
