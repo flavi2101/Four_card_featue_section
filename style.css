@@ -1,1 +1,104 @@
+* {
+  --Grayish_Blue: hsl(229, 6%, 66%);
+  --Very_Dark_Blue: hsl(234, 12%, 34%);
+  --Very_Light_Gray: hsl(0, 0%, 98%);
+  --primary_Cyan: hsl(180, 62%, 55%);
+  --primary_blue: hsl(212, 86%, 64%);
+  --primary_oragen: hsl(34, 97%, 64%);
+  --primary_red: hsl(0, 78%, 62%);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin-block: 0;
+  margin-inline: 0;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    background-color: white;
+    font-size: 10px;
+    inline-size: 100vw;
+  }
+
+  main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-block-end: 7.7em;
+    margin-block-start: 9.1em;
+    margin-inline: 3.1em;
+  }
+  hgroup {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  h1 {
+    color: var(--Very_Dark_Blue);
+    font-size: 2.7em;
+    font-weight: 400;
+  }
+
+  hgroup > h2 {
+    color: var(--Grayish_Blue);
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  hgroup ~ p {
+    color: var(--Grayish_Blue);
+    font-size: 1.5em;
+    margin-block-end: 3em;
+    margin-block-start: 1em;
+    text-align: center;
+  }
+
+  section {
+    background-color: var(--Very_Light_Gray);
+    block-size: 20.4em;
+    border-radius: 1em;
+    box-shadow: 0 0.7em 15px rgba(84, 158, 242, 0.5);
+    inline-size: 100%;
+    margin-block-end: 2.6em;
+    padding-block-start: 3em;
+    padding-inline: 3em;
+    position: relative;
+  }
+
+  section p {
+    color: var(--Grayish_Blue);
+    font-size: 1.2em;
+  }
+
+  img {
+    position: absolute;
+    inline-size: 5em;
+    inset-inline-end: 2em;
+    inset-block-end: 2em;
+  }
+
+  section:nth-of-type(4n + 1) {
+    border-top-color: var(--primary_Cyan);
+    border-top-style: solid;
+    border-top-width: 0.4em;
+  }
+  section:nth-of-type(4n + 2) {
+    border-top-color: var(--primary_red);
+    border-top-style: solid;
+    border-top-width: 0.4em;
+  }
+  section:nth-of-type(4n + 3) {
+    border-top-color: var(--primary_oragen);
+    border-top-style: solid;
+    border-top-width: 0.4em;
+  }
+  section:nth-of-type(4n + 4) {
+    border-top-color: var(--primary_blue);
+    border-top-style: solid;
+    border-top-width: 0.4em;
+  }
+}
+
 
