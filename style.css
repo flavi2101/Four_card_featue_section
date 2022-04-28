@@ -14,7 +14,7 @@
   padding-inline: 0;
 }
 
-@media screen and (max-width: 1139.9px) {
+@media screen and (max-width: 1559.9px) {
   body {
     background-color: white;
     font-size: 10px;
@@ -100,7 +100,7 @@
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1600px) {
   body {
     background-color: white;
     font-size: 10px;
